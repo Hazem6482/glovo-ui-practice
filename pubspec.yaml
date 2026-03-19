@@ -1,0 +1,64 @@
+name: glovo
+description: "Glovo Clone Flutter App"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.17
+  lottie: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/accueil/
+    - assets/images/restaurants/
+    - assets/images/explorer/
+    - assets/images/commands/
+    - assets/images/compte/
+    - assets/images/icons/
+    - assets/images/tacoth/
+    - assets/images/type-plat/
+    - assets/images/map/
+    - assets/lotties/
+    - assets/svgs/
+
+  fonts:
+    - family: GlovoBlack
+      fonts:
+        - asset: assets/fonts/glovo_black_font.otf
+    - family: GlovoBold
+      fonts:
+        - asset: assets/fonts/glovo_bold_font.otf
+    - family: GlovoBook
+      fonts:
+        - asset: assets/fonts/glovo_book_font.otf
+    - family: GlovoMedium
+      fonts:
+        - asset: assets/fonts/glovo_medium_font.otf
+    - family: WorkSans
+      fonts:
+        - asset: assets/fonts/work_sans_regular.ttf
+        - asset: assets/fonts/work_sans_medium.ttf
+          weight: 500
+        - asset: assets/fonts/work_sans_semibold.ttf
+          weight: 600
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/images/ic_glovo_launcher.png"
